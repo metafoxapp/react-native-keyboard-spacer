@@ -3,12 +3,12 @@
  */
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import {ViewPropTypes} from 'deprecated-react-native-prop-types'
 import {
   Keyboard,
   LayoutAnimation,
   View,
   Dimensions,
-  ViewPropTypes,
   Platform,
   StyleSheet
 } from 'react-native';
